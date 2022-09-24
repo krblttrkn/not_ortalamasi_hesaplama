@@ -35,6 +35,7 @@ public class Baslangic {
         System.out.print(str);
     }
 }
-
-
 ```
+# Patika Profilim:
+***
+<a href="https://app.patika.dev/krblttrkn">Patika Linkim</a>
