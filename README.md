@@ -29,10 +29,8 @@ public class Baslangic {
         double sonuc = (toplam / 6.0);
         System.out.println("Ders Notu Ortalaması : " + sonuc);
 
-        int gecer=60;
-        boolean sonuc1 = sonuc >= gecer ;
-        String str = sonuc1 ? "Sınıfı Geçti" : "Sınıfta Kaldı" ;
-        System.out.print("Durum Değerlendirmesi : " + str);
+        String durum = (sonuc >=60) ? "Sınıfı Geçti" : "Sınıfta Kaldı" ;
+        System.out.print("Durum Değerlendirmesi :" + durum);  
     }
 }
 ```
